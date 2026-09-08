@@ -31,6 +31,10 @@ body {
     linear-gradient(160deg, #05070a 0%, #0c1118 48%, #111b29 100%);
 }
 
+body::before {
+  display: none;
+}
+
 .page-shell {
   width: min(1180px, calc(100% - 2rem));
   margin: 0 auto;
