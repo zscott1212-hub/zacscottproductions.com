@@ -1,14 +1,8 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "zacscottproductions",
-  "compatibility_date": "2026-05-07",
-  "observability": {
-    "enabled": true
-  },
+  "name": "zacscottproductions-com",
+  "compatibility_date": "2026-08-05",
   "assets": {
-    "directory": "."
-  },
-  "compatibility_flags": [
-    "nodejs_compat"
-  ]
+    "directory": "./",
+    "not_found_handling": "single-page-application"
+  }
 }

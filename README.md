@@ -5,13 +5,12 @@ Static website for `zacscottproductions.com`.
 ## What this is
 
 - Free-hosting friendly site structure
-- Homepage plus `Music` and `Movies` sections
+- Homepage plus `Movies` section
 - Built as plain HTML/CSS/JS so it can deploy without a paid builder
 
 ## Folder structure
 
 - `index.html`: homepage
-- `music/index.html`: music section
 - `movies/index.html`: movies section
 - `assets/styles.css`: site styling
 - `assets/app.js`: lightweight animations
@@ -40,4 +39,4 @@ Use object storage for audio/video files and keep the website static.
 - Replace placeholder titles and descriptions
 - Add real poster art / cover art
 - Paste embed codes into the placeholder areas
-- Add links for streaming platforms, trailers, credits, and contact info
+- Add links for streaming platforms, trailers, and credits
