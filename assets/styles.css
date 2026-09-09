@@ -190,6 +190,10 @@ h3 {
   background: rgba(255, 255, 255, 0.05);
 }
 
+.thumb-card .button-secondary {
+  margin-top: 0.75rem;
+}
+
 .split-grid,
 .content-grid,
 .catalog,
