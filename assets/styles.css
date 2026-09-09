@@ -506,7 +506,7 @@ h3 {
   background: rgba(255, 255, 255, 0.05);
 }
 
-.fade-in {
+.js .fade-in {
   opacity: 0;
   transform: translateY(18px);
   transition:
