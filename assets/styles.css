@@ -194,6 +194,10 @@ h3 {
   margin-top: 0.75rem;
 }
 
+.featured-video-card .button-secondary {
+  margin-top: 1.5rem;
+}
+
 .split-grid,
 .content-grid,
 .catalog,
