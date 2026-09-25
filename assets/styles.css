@@ -493,6 +493,15 @@ h3 {
   margin-top: 0;
 }
 
+.music-section-heading {
+  margin-top: 1.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.singles-grid {
+  margin-top: 0;
+}
+
 .section-heading {
   margin-top: 1.5rem;
 }
