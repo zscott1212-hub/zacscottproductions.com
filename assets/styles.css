@@ -497,6 +497,25 @@ h3 {
 
 .singles-grid {
   margin-top: 0;
+  gap: 0.75rem;
+}
+
+.panel-singles .panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.panel-singles .bandcamp-player-frame {
+  margin-top: 1rem;
+}
+
+.panel-singles .bandcamp-player {
+  display: block;
+  width: 100%;
+  min-height: 240px;
+  height: 240px;
+  border: 0;
 }
 
 .section-heading {
