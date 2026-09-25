@@ -384,6 +384,7 @@ h3 {
 #tab-asyouare:checked ~ .tab-panels .panel-asyouare,
 #tab-mr-sunshine:checked ~ .tab-panels .panel-mr-sunshine,
 #tab-album:checked ~ .tab-panels .panel-album,
+#tab-singles:checked ~ .tab-panels .panel-singles,
 #tab-live:checked ~ .tab-panels .panel-live {
   display: block;
 }
@@ -391,6 +392,7 @@ h3 {
 #tab-asyouare:checked ~ .tab-controls label[for="tab-asyouare"],
 #tab-mr-sunshine:checked ~ .tab-controls label[for="tab-mr-sunshine"],
 #tab-album:checked ~ .tab-controls label[for="tab-album"],
+#tab-singles:checked ~ .tab-controls label[for="tab-singles"],
 #tab-live:checked ~ .tab-controls label[for="tab-live"] {
   color: var(--text);
   background: linear-gradient(135deg, rgba(243, 184, 74, 0.16), rgba(255, 255, 255, 0.08));
@@ -491,11 +493,6 @@ h3 {
 
 .page-grid {
   margin-top: 0;
-}
-
-.music-section-heading {
-  margin-top: 1.75rem;
-  margin-bottom: 0.5rem;
 }
 
 .singles-grid {
