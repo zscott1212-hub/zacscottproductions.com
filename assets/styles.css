@@ -466,6 +466,30 @@ h3 {
   background: rgba(255, 255, 255, 0.04);
 }
 
+.about-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(280px, 0.75fr);
+  align-items: start;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.contact-form > p:not(.eyebrow),
+.contact-details p {
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.about-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: var(--shadow);
+}
+
 .stat-number {
   font-family: "Bebas Neue", sans-serif;
   font-size: 3rem;
@@ -558,6 +582,7 @@ h3 {
   .catalog,
   .thumb-grid,
   .detail-layout,
+  .about-layout,
   .stats-row {
     grid-template-columns: 1fr;
   }
@@ -586,4 +611,3 @@ h3 {
     max-width: none;
   }
 }
-
