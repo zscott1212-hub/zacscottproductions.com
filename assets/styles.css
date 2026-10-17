@@ -480,6 +480,16 @@ h3 {
   line-height: 1.7;
 }
 
+.contact-details {
+  margin-top: 1.75rem;
+  font-size: 0.95rem;
+}
+
+.contact-details h2 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+}
+
 .about-image {
   display: block;
   width: 100%;
