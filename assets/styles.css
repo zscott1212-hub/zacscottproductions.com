@@ -490,6 +490,10 @@ h3 {
   font-size: clamp(1.5rem, 2.5vw, 2.25rem);
 }
 
+.contact-details a {
+  color: var(--text);
+}
+
 .about-image {
   display: block;
   width: 100%;
